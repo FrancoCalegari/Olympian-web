@@ -115,6 +115,17 @@ body {
 	background-image: url("https://www.transparenttextures.com/patterns/ag-square.png");
 }
 
+#home {
+	width: 95%;
+	max-width: 115rem;
+	display: flex;
+	background-repeat: no-repeat;
+	background-size: cover;
+	/* background-image: url("../img/7599235.jpg"); */
+}
+
+
+
 .homeDiv {
 	display: flex;
     justify-content: space-around;
@@ -122,6 +133,12 @@ body {
     flex-direction: row;
     align-content: center;
     align-items: center;
+	background-color: #3e3c3c3b;
+	border-radius: 15px;
+	box-shadow: 1px 1px 10px ;
+	padding: 25px;
+	margin: auto;
+	
 
 }
 
@@ -129,18 +146,23 @@ body {
 	
 	padding: 15px;
 	margin: 15px;
+	color: auto;
 }
 
+.homeDiv div p {
+	margin-bottom: 15px;
+}
 
 .homeDiv img {
 	width: 20rem;
 	margin: 5px;
-	
+	filter: opacity(0.5%);
 }
 
 #serviceGallery {
 	display: flex;
 	background-color: #ffd968;
+	width: 60%;
 }
 
 .card {
@@ -153,6 +175,7 @@ body {
 	background-color: red;
 	margin: .5rem;
 	border-radius: 15px;
+	max-width: 19rem;
 }
 
 .card img {
@@ -162,10 +185,14 @@ body {
 
 .card-text {
 	text-align: center;
-	
+	flex-direction: column;
 }
 
 .card-text p {
 	font-size: 1rem;
 	width: 90%;
+}
+
+#personal div div {
+	display: flex;
 }
