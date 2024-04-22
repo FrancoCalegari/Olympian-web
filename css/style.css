@@ -19,8 +19,10 @@ body {
 	background-image: url("https://www.transparenttextures.com/patterns/ag-square.png");
 }
 
-.logo {
+.logo a{
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: #2c2a27;
+	
 }
 
 .fix-nav {
@@ -80,8 +82,8 @@ nav ul li a:hover {
     
 }
 
-section {
-    padding: 15px;
+.section {
+	padding: 15px;
     background-color: #ffffff;
     width:  85%;
     margin: auto;
@@ -116,15 +118,19 @@ body {
 }
 
 #home {
-	width: 95%;
+	margin: auto;
 	max-width: 115rem;
 	display: flex;
-	background-repeat: no-repeat;
-	background-size: cover;
-	/* background-image: url("../img/7599235.jpg"); */
+
 }
 
+#btncontactnow1 {
+	padding: .2rem;
+	border-radius: 3px;
+	border: #1139461f;
+	background-color: #ffffffad;
 
+}
 
 .homeDiv {
 	display: flex;
@@ -138,6 +144,9 @@ body {
 	box-shadow: 1px 1px 10px ;
 	padding: 25px;
 	margin: auto;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url("../img/peakpx.jpg");
 	
 
 }
@@ -159,12 +168,19 @@ body {
 	filter: opacity(0.5%);
 }
 
-#serviceGallery {
+.containCards {
 	display: flex;
-	background-color: #ffd968;
-	width: 60%;
+	justify-content: center;
 }
 
+#serviceGalleryDiv {
+	width: 80%;
+}
+
+#serviceGalleryDiv h2 {
+	text-align: center;
+
+}
 .card {
 	display: flex;
     flex-direction: column;
@@ -172,7 +188,7 @@ body {
     justify-content: center;
     align-items: center;
 	height: 15rem;
-	background-color: red;
+	background-color: #bbb;
 	margin: .5rem;
 	border-radius: 15px;
 	max-width: 19rem;
@@ -195,4 +211,5 @@ body {
 
 #personal div div {
 	display: flex;
+	justify-content: center;
 }
