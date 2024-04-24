@@ -147,7 +147,8 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-image: url("../img/peakpx.jpg");
-	
+	max-width: 50rem;
+	height: 20rem;
 
 }
 
@@ -173,9 +174,7 @@ body {
 	justify-content: center;
 }
 
-#serviceGalleryDiv {
-	width: 80%;
-}
+
 
 #serviceGalleryDiv h2 {
 	text-align: center;
@@ -213,3 +212,4 @@ body {
 	display: flex;
 	justify-content: center;
 }
+
